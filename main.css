@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Heebo", sans-serif;
+    background: #ffffff;
+    color: #21243d;
+}
+
+.container {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+nav ul {
+    margin: 7px 0 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    display: inline;
+    padding: 0 18px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #ff6464;
+}
+
+.heebo {
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.heebo-regular {
+    font-weight: 400;
+}
+
+.heebo-medium {
+    font-weight: 500;
+}
+
+.heebo-bold {
+    font-weight: 700;
+}
+
+.resume-section {
+    display: flex;
+    margin-top: 154px;
+    gap: 95px;
+    max-width: 1152px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+.resume-left {
+    flex: 1;
+}
+
+.resume-section h1 {
+    font-size: 42px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.resume-section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.btn-download {
+    background-color: #FF6464;
+    color: white;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 2px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.btn-download:hover {
+    background-color: #e04e4e;
+}
+
+.resume-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-outer-circle {
+    width: 243px;
+    height: 243px;
+    background-color: #edf7fa;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile-outer-circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.blue-box {
+    background-color: #EDF7FA;
+    padding: 40px 0;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.rectangle {
+    max-width: 1152px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.recent-post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.recent-post h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #21243D;
+}
+
+.recent-post a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #00a8cc;
+    text-decoration: none;
+}
+
+.post-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.post-card {
+    background-color: #FFFFFF;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.post-card h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 17px;
+    color: #21243d;
+}
+
+.post-card .date {
+    font-size: 16px;
+    color: #21243d;
+    margin-bottom: 17px;
+}
+
+.post-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #21243d;
+}
+
+.works-section {
+    max-width: 1152px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.works-heading {
+    font-size: 22px;
+    font-weight: 500;
+    color: #21243d;
+    margin-bottom: 40px;
+}
+
+.work-item {
+    display: flex;
+    gap: 30px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 40px;
+}
+
+.work-img {
+    width: 246px;
+    height: 180px;
+    border-radius: 8px;
+}
+
+.work-text h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #21243d;
+    margin-bottom: 16px;
+}
+
+.work-tag {
+    margin-bottom: 20px;
+}
+
+.year {
+    background-color: #142850;
+    color: white;
+    padding: 4px 12px;
+    border-radius: 16px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 26px;
+}
+
+.type {
+    color: #8695a4;
+    font-size: 18px;
+}
+
+.work-text p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #21243d;
+}
+
+.footer {
+    text-align: center;
+    padding: 50px 20px 54px;
+    background-color: #ffffff;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.rights {
+    font-size: 14px;
+    color: #21243D
+}
