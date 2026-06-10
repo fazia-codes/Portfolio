@@ -12,13 +12,13 @@ body {
 }
 
 .container {
-    max-width: 1152px;
+    max-width: 1132px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 nav ul {
-    margin: 7px 0 0 0;
+    margin-top: 27px;
     padding: 0;
     list-style: none;
     display: flex;
@@ -60,51 +60,45 @@ nav ul li a:hover {
 
 .resume-section {
     display: flex;
-    margin-top: 154px;
-    gap: 95px;
-    max-width: 1152px;
+    margin-top: 150px;
+    gap: 113px;
+    max-width: 856px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 20px;
-}
-
-.resume-left {
-    flex: 1;
 }
 
 .resume-section h1 {
-    font-size: 42px;
+    font-size: 44px;
     line-height: 60px;
     margin-bottom: 20px;
+    color: #21243D;
 }
 
 .resume-section p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 20px;
+    margin-bottom: 38px;
+    color: #21243D;
 }
 
 .btn-download {
     background-color: #FF6464;
     color: white;
-    padding: 13px 26px;
+    padding: 15px 21px;
     border: none;
     border-radius: 2px;
     font-family: 'Heebo', sans-serif;
     font-size: 20px;
     cursor: pointer;
-    margin-top: 10px;
 }
 
 .btn-download:hover {
     background-color: #e04e4e;
 }
 
-.resume-right {
-    flex: 1;
+.resume-right {  
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .profile-outer-circle {
@@ -113,7 +107,6 @@ nav ul li a:hover {
     background-color: #edf7fa;
     border-radius: 50%;
     display: flex;
-    align-items: center;
     justify-content: center;
     overflow: hidden;
 }
@@ -126,35 +119,49 @@ nav ul li a:hover {
 
 .blue-box {
     background-color: #EDF7FA;
-    padding: 40px 0;
-    margin-top: 40px;
+    padding-top: 21px;
+    padding-bottom: 13px;
+    margin-top: 70px;
     width: 100%;
 }
 
 .rectangle {
-    max-width: 1152px;
+    max-width: 856px;
     margin: 0 auto;
-    padding: 0 20px;
 }
 
 .recent-post {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 30px;
+    margin-bottom: 29px;
 }
 
 .recent-post h3 {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     color: #21243D;
 }
 
 .recent-post a {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
     color: #00a8cc;
     text-decoration: none;
+}
+
+.d {
+    font-size: 18px;
+    margin-bottom: 16px;
+    display: flex;
+    gap: 20px;
+    font-weight: 400;
+    color: #21243D;
+}
+
+.date::after {
+    content: "|";
+    margin-left: 20px;
 }
 
 .post-box {
@@ -165,13 +172,13 @@ nav ul li a:hover {
 
 .post-card {
     background-color: #FFFFFF;
-    padding: 24px;
+    padding: 29px;
     border-radius: 4px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
 
 .post-card h2 {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: 700;
     margin-bottom: 17px;
     color: #21243d;
@@ -185,46 +192,42 @@ nav ul li a:hover {
 
 .post-card p {
     font-size: 16px;
+    font-weight: 400;
     line-height: 1.5;
     color: #21243d;
 }
 
 .works-section {
-    max-width: 1152px;
-    margin: 60px auto;
-    padding: 0 20px;
+    max-width: 856px;
+    margin-top: 52px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .works-heading {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     color: #21243d;
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 
 .work-item {
     display: flex;
-    gap: 30px;
-    padding-bottom: 40px;
+    gap: 19px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #e0e0e0;
-    margin-bottom: 40px;
-}
-
-.work-img {
-    width: 246px;
-    height: 180px;
-    border-radius: 8px;
+    margin-bottom: 30px;
 }
 
 .work-text h3 {
-    font-size: 28px;
+    font-size: 30px;
     font-weight: 700;
     color: #21243d;
     margin-bottom: 16px;
 }
 
 .work-tag {
-    margin-bottom: 20px;
+    margin-bottom: 14px;
 }
 
 .year {
@@ -232,19 +235,19 @@ nav ul li a:hover {
     color: white;
     padding: 4px 12px;
     border-radius: 16px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     margin-right: 26px;
 }
 
 .type {
     color: #8695a4;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .work-text p {
     font-size: 16px;
-    line-height: 1.5;
+    font-weight: 400;
     color: #21243d;
 }
 
@@ -261,10 +264,7 @@ nav ul li a:hover {
 }
 
 .social-links img {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    margin: 0 15px;
+    margin: 16px 15px;
 }
 
 .rights {
