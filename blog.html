@@ -66,8 +66,6 @@
     body {
         font-family: "Heebo", sans-serif;
         background: #ffffff;
-        margin-left: 176px;
-
     }
 
     .container {
@@ -80,6 +78,7 @@
         padding-top: 27px;
         font-size: 20px;
         gap: 26px;
+        margin-inline: auto;
     }
 
     nav a {
@@ -89,8 +88,11 @@
     }
 
     .text {
-        margin-right: 176px;
         max-width: 610px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-inline: auto;
     }
 
     h1 {
@@ -110,6 +112,7 @@
         font-size: 20px;
         font-weight: 500px;
     }
+
     .date::after {
         content: "|";
         margin-left: 20px;
@@ -135,11 +138,12 @@
     }
 
     .footer {
-        margin-right: 176px;
-        max-width: 682px;
+        max-width: 1152px;
         text-align: center;
         padding-top: 78px;
         background-color: #ffffff;
+        padding-block: auto;
+        margin-inline: auto;
     }
 
     .social-links a {
@@ -149,7 +153,7 @@
     }
 
     .social-links img {
-        margin: 16px 15px;
+        margin: 16px 10px;
     }
 
     .rights {
